@@ -30,5 +30,30 @@
   
      //Get Company by Isin
      https://localhost:5001/api/Company/GetCompanyByIsin/{isin}
+     
+     //Create Company (POST Method)
+    https://localhost:5001/api/Company/CreateCompany
   
+    Sample Data:
+      {
+      "Name": "TestCompany",
+      "Exchange": "Nasdaq",
+      "Ticker": "TECO",
+      "Isin": "MKA1923123",
+      "Website": "www.testcompany.com"
+      }
+      
+      //Update Data (PUT Method)
+      https://localhost:5001/api/Company/UpdateCompany
+      
+    Sample Data:
+      {
+      "Id": 1,
+      "Name": "TestCompany",
+      "Exchange": "Nasdaq",
+      "Ticker": "TECO",
+      "Isin": "MKA1923123",
+      "Website": "www.testcompany.com"
+      }
+
   
