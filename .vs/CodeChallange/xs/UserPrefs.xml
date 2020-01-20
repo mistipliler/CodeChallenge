@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{E855F6B4-1498-4BE3-BBA5-8113505A91C6}|Default">
+  <MonoDevelop.Ide.ItemProperties.CodeChallange PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CodeChallange/Controllers/LoginController.cs">
+    <Files>
+      <File FileName="CodeChallange/Controllers/LoginController.cs" Line="88" Column="13" />
+      <File FileName="CodeChallange/appsettings.json" Line="11" Column="43" />
+      <File FileName="CodeChallange/Startup.cs" Line="68" Column="34" />
+      <File FileName="CodeChallange/Controllers/ValidationController.cs" Line="1" Column="1" />
+      <File FileName="CodeChallange/Controllers/CompanyController.cs" Line="89" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CodeChallange" expanded="True">
+            <Node name="CodeChallange" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="LoginController.cs" selected="True" />
+              </Node>
+              <Node name="Model" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallange/CodeChallange/Controllers/FieldCheckController.cs" relfile="CodeChallange/Controllers/FieldCheckController.cs" line="23" column="1" />
+      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallange/CodeChallange/Model/mwc3ig1w.ht7~" relfile="CodeChallange/Model/mwc3ig1w.ht7~" line="46" column="1" />
+      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallange/CodeChallange/Controllers/8kk9i6dm.g4s~" relfile="CodeChallange/Controllers/8kk9i6dm.g4s~" line="52" column="1" />
+      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallange/CodeChallange/Controllers/125d7afa.3pe~" relfile="CodeChallange/Controllers/125d7afa.3pe~" line="52" column="1" />
+      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallange/CodeChallange/4ppo4db5.fx3~" relfile="CodeChallange/4ppo4db5.fx3~" line="85" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

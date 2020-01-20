@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/muratistipliler/.dotnet/store/|arch|/|tfm|",
+      "/Users/muratistipliler/.nuget/packages"
+    ]
+  }
+}

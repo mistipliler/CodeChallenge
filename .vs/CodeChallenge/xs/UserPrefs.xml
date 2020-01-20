@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{E855F6B4-1498-4BE3-BBA5-8113505A91C6}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CodeChallenge" expanded="True" selected="True">
+            <Node name="CodeChallenge" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CodeChallenge PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallange/CodeChallange/Controllers/FieldCheckController.cs" relfile="CodeChallange/Controllers/FieldCheckController.cs" line="23" column="1" />
+      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallange/CodeChallange/Model/mwc3ig1w.ht7~" relfile="CodeChallange/Model/mwc3ig1w.ht7~" line="46" column="1" />
+      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallange/CodeChallange/Controllers/8kk9i6dm.g4s~" relfile="CodeChallange/Controllers/8kk9i6dm.g4s~" line="52" column="1" />
+      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallange/CodeChallange/Controllers/125d7afa.3pe~" relfile="CodeChallange/Controllers/125d7afa.3pe~" line="52" column="1" />
+      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallange/CodeChallange/4ppo4db5.fx3~" relfile="CodeChallange/4ppo4db5.fx3~" line="85" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
