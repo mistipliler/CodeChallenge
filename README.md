@@ -19,7 +19,7 @@
 1) Login:
       https://localhost:5001/api/Login?username=user&password=user
     
-    This method generate a token that is used authorization.
+    This method generate a token which is used for authorization.
   
 2) API Test:
       //Get Company List
