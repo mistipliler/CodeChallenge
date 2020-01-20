@@ -18,6 +18,7 @@
 
 1) Login:
       https://localhost:5001/api/Login?username=user&password=user
+    
     This method generate a token that is used authorization.
   
 2) API Test:
