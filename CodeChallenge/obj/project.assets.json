@@ -6193,11 +6193,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/muratistipliler/Projects/CodeChallange/CodeChallenge/CodeChallenge.csproj",
+      "projectUniqueName": "/Users/muratistipliler/Projects/CodeChallenge/CodeChallenge/CodeChallenge.csproj",
       "projectName": "CodeChallenge",
-      "projectPath": "/Users/muratistipliler/Projects/CodeChallange/CodeChallenge/CodeChallenge.csproj",
+      "projectPath": "/Users/muratistipliler/Projects/CodeChallenge/CodeChallenge/CodeChallenge.csproj",
       "packagesPath": "/Users/muratistipliler/.nuget/packages/",
-      "outputPath": "/Users/muratistipliler/Projects/CodeChallange/CodeChallenge/obj/",
+      "outputPath": "/Users/muratistipliler/Projects/CodeChallenge/CodeChallenge/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/muratistipliler/.config/NuGet/NuGet.Config"

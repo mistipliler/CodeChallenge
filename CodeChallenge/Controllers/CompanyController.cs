@@ -82,7 +82,7 @@ namespace CodeChallenge.Controllers
             return Ok();
         }
 
-        [Authorize]
+        //[Authorize]
         [HttpPut]
         [Route("[action]")]
         public async Task<ActionResult> UpdateCompany(Company company)
@@ -94,7 +94,16 @@ namespace CodeChallenge.Controllers
             {
                 //ISIN validation
                 if (IsIsinValid(company.Isin))
-                    _db.Company.Update(company);
+                {
+                    //Control isin
+                    var isIsinExist = await _db.Company.FirstOrDefaultAsync(q => q.Id != company.Id && q.Isin == company.Isin) != null;
+
+                    if(!isIsinExist)
+                        _db.Company.Update(company);
+                    else
+                        return BadRequest("Isin is already exist");
+                }
+                
                 else
                     return BadRequest("The first two characters of an ISIN must be letters.");
             }

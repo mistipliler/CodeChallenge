@@ -1,10 +1,25 @@
 ﻿<Properties StartupConfiguration="{E855F6B4-1498-4BE3-BBA5-8113505A91C6}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="CodeChallenge/Pages/CompanyList/Upsert.cshtml.cs">
+    <Files>
+      <File FileName="CodeChallenge/Controllers/CompanyController.cs" Line="85" Column="11" />
+      <File FileName="CodeChallenge/Pages/CompanyList/Upsert.cshtml.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CodeChallenge" expanded="True" selected="True">
-            <Node name="CodeChallenge" expanded="True" />
+          <Node name="CodeChallenge" expanded="True">
+            <Node name="CodeChallenge" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="CompanyList" expanded="True">
+                  <Node name="Upsert.cshtml" expanded="True">
+                    <Node name="Upsert.cshtml.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -15,11 +30,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallange/CodeChallange/Controllers/FieldCheckController.cs" relfile="CodeChallange/Controllers/FieldCheckController.cs" line="23" column="1" />
-      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallange/CodeChallange/Model/mwc3ig1w.ht7~" relfile="CodeChallange/Model/mwc3ig1w.ht7~" line="46" column="1" />
-      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallange/CodeChallange/Controllers/8kk9i6dm.g4s~" relfile="CodeChallange/Controllers/8kk9i6dm.g4s~" line="52" column="1" />
-      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallange/CodeChallange/Controllers/125d7afa.3pe~" relfile="CodeChallange/Controllers/125d7afa.3pe~" line="52" column="1" />
-      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallange/CodeChallange/4ppo4db5.fx3~" relfile="CodeChallange/4ppo4db5.fx3~" line="85" column="1" />
+      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallenge/CodeChallange/Controllers/FieldCheckController.cs" relfile="CodeChallange/Controllers/FieldCheckController.cs" line="23" column="1" />
+      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallenge/CodeChallange/Model/mwc3ig1w.ht7~" relfile="CodeChallange/Model/mwc3ig1w.ht7~" line="46" column="1" />
+      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallenge/CodeChallange/Controllers/8kk9i6dm.g4s~" relfile="CodeChallange/Controllers/8kk9i6dm.g4s~" line="52" column="1" />
+      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallenge/CodeChallange/Controllers/125d7afa.3pe~" relfile="CodeChallange/Controllers/125d7afa.3pe~" line="52" column="1" />
+      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallenge/CodeChallange/4ppo4db5.fx3~" relfile="CodeChallange/4ppo4db5.fx3~" line="85" column="1" />
+      <Breakpoint file="/Users/muratistipliler/Projects/CodeChallenge/CodeChallenge/Controllers/CompanyController.cs" relfile="CodeChallenge/Controllers/CompanyController.cs" line="89" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

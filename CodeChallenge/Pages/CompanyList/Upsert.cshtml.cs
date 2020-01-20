@@ -21,15 +21,16 @@ namespace CodeChallenge.Pages.CompanyList
         [BindProperty]
         public Company Company { get; set; }
 
+        //Get Company
         public async Task<IActionResult> OnGetAsync(int? id)
         {
             Company = new Company();
 
-            //Create
+            //Company Create Page
             if (id == null)
                 return Page();
 
-            //Update
+            //Company Update Page
             Company = await _db.Company.FirstOrDefaultAsync(q => q.Id == id);
 
             if (Company == null)
@@ -38,6 +39,7 @@ namespace CodeChallenge.Pages.CompanyList
             return Page();
         }
 
+        //Create - Update Company
         public async Task<IActionResult> OnPost()
         {
             if (ModelState.IsValid)
@@ -46,16 +48,26 @@ namespace CodeChallenge.Pages.CompanyList
                 if (Company.Id == 0)
                 {
                     //Control isin
-                    var isIsinExist = await _db.Company.FirstOrDefaultAsync(q => q.Isin == Company.Isin) == null;
+                    var isIsinExist = await _db.Company.FirstOrDefaultAsync(q => q.Isin == Company.Isin) != null;
 
                     //Add company
-                    if(isIsinExist)
+                    if(!isIsinExist)
                         _db.Company.Add(Company);
                     else
-                        return RedirectToPage(); //TODO Warning message (Isin is already exist)
+                        return BadRequest("Isin is already exist"); //TODO Warning popup (Isin is already exist)
                 }
                 else
-                    _db.Company.Update(Company); //Update record
+                {
+                    //Control isin
+                    var isIsinExist = await _db.Company.FirstOrDefaultAsync(q => q.Id != Company.Id && q.Isin == Company.Isin) != null;
+
+                    //Update record
+                    if (!isIsinExist)
+                        _db.Company.Update(Company);
+                    else
+                        return BadRequest("Isin is already exist"); //TODO Warning popup (Isin is already exist)
+                }
+                     
 
                 await _db.SaveChangesAsync();
 
