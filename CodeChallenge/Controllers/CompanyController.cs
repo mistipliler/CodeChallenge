@@ -3,6 +3,7 @@ using CodeChallenge.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -63,10 +64,10 @@ namespace CodeChallenge.Controllers
                 if (IsIsinValid(company.Isin))
                 {
                     //Control isin
-                    var isIsinExist = await _db.Company.FirstOrDefaultAsync(q => q.Isin == company.Isin) == null;
+                    var isIsinExist = await _db.Company.FirstOrDefaultAsync(q => q.Isin == company.Isin) != null;
 
                     //Add company
-                    if (isIsinExist)
+                    if (!isIsinExist)
                         _db.Company.Add(company);
                     else
                         return BadRequest("ISIN is already exist.");
@@ -82,7 +83,7 @@ namespace CodeChallenge.Controllers
             return Ok();
         }
 
-        //[Authorize]
+        [Authorize]
         [HttpPut]
         [Route("[action]")]
         public async Task<ActionResult> UpdateCompany(Company company)
@@ -118,7 +119,7 @@ namespace CodeChallenge.Controllers
         private bool IsIsinValid(string isin)
         {
             //The first two characters of an ISIN must be letters
-            if (char.IsDigit(isin[0]) && char.IsDigit(isin[1]))
+            if (!char.IsDigit(isin[0]) && !char.IsDigit(isin[1]))
                 return true;
             else
                 return false;
