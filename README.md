@@ -3,7 +3,7 @@
 1) Connection String
     ConnectionString is located in appsettings.Development.json file.
 
-2) To create database please run
+2) To create database (MSSQL) please run
 
     Linux:
      dotnet ef database update InitialCreateDB
