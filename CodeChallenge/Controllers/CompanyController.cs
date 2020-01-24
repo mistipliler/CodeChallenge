@@ -89,9 +89,9 @@ namespace CodeChallenge.Controllers
         public async Task<ActionResult> UpdateCompany(Company company)
         {
             //Check company exist
-            var companyDB = await _db.Company.FirstOrDefaultAsync(q => q.Id == company.Id);
+            var isCompanyExist = await _db.Company.AnyAsync(q => q.Id == company.Id);
 
-            if (companyDB != null)
+            if (isCompanyExist)
             {
                 //ISIN validation
                 if (IsIsinValid(company.Isin))
